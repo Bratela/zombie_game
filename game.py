@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((1063, 598))
 background = pygame.image.load('./images/fon.png')
 
 pygame.display.set_caption("Zombie")
-icon = pygame.image.load('./images/zombie.png')
+icon = pygame.image.load('./images/zombie.jpg')
 pygame.display.set_icon(icon)
 
 #game engine
@@ -21,5 +21,6 @@ while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
+
 pygame.quit()
 
